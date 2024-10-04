@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: cornflowerblue;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    background-color: brown;
+    background-image: ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 6px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    background-color: darkseagreen;
+    padding: 14px;
+    border-radius: 6px;
+    
+
+}
+
+
+
+button:hover{
+    background-color: brown;
+}
+
+
+.productico{
+    margin: 40px;
+    background-color: aliceblue;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    gap: 8px;
+    
+
+}
+
+img{
+    width: 70px;
+}
+
+#carrito{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    align-items: center;
+
+}
+
+
+#carrito img{
+    width: 30px;
+    height: 30px;
+}
+
+
